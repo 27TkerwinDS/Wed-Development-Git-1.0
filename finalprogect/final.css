@@ -25,6 +25,7 @@
   text-decoration: none;
   color: black;
 }
+
 h1, h2 {
     text-align: center;
 }
@@ -58,7 +59,7 @@ position: relative;
   position: absolute;
   top: 23%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   color: darkred;
   font-size: xx-large;
 }
@@ -67,6 +68,8 @@ position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: xx-large;
+  color: darkred
 
 }
 .a{
@@ -102,7 +105,18 @@ position: relative;
   text-align: center;
   text-decoration: none;
 }
+div>a{
+  text-decoration: none;
+  color:black
+}
 .h{
   padding-left: 20%;
   padding-right: 20%;
+}
+body{
+  background-color: lightyellow;
+}
+.co{
+  border: 1px dotted black;
+  height: auto;
 }
