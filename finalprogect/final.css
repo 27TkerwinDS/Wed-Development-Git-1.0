@@ -1,6 +1,6 @@
 .navbar {
   display: grid;
-  grid-template-columns: 1fr 1fr  1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px;
   background-color: lightblue;
   padding-top: 10px;
@@ -17,7 +17,6 @@
   border-radius: 10px;
   text-align: center;
 
-
   margin: 5px;
 }
 .navbar > div > a {
@@ -26,29 +25,31 @@
   color: black;
 }
 
-h1, h2 {
-    text-align: center;
+h1,
+h2 {
+  text-align: center;
 }
 .co {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 50px;
+  grid-template-rows: 50px fit-content;
   padding-left: 10%;
   padding-right: 10%;
 }
-.eng{
+.eng {
   padding-left: 10%;
   padding-right: 10%;
   border-radius: 8px;
+  container: 5px solid black;
 }
-.co1{
-padding-right: 2.5%;
+.co1 {
+  padding-right: 2.5%;
 }
-.co2{
-padding-left: 2.5%;
+.co2 {
+  padding-left: 2.5%;
 }
-.contaner{
-position: relative;
+.contaner {
+  position: relative;
   text-align: center;
   color: darkred;
   font-size: xx-large;
@@ -63,38 +64,37 @@ position: relative;
   color: darkred;
   font-size: xx-large;
 }
-.i{
+.i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: xx-large;
-  color: darkred
-
+  color: darkred;
 }
-.a{
+.a {
   font-size: xxx-large;
   padding-left: 35%;
 }
-.c{
+.c {
   width: 50%;
   padding-left: 1%;
   float: left;
   padding-right: 1%;
 }
-.b{
+.b {
   padding-left: 1.5%;
   padding-right: 1.5%;
 }
 
-.f{
+.f {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100% 100%;
   padding-left: 1%;
   padding-right: 1%;
 }
-.g{
+.g {
   height: 30px;
   line-height: 30px;
   background-color: lightgray;
@@ -105,18 +105,27 @@ position: relative;
   text-align: center;
   text-decoration: none;
 }
-div>a{
+div > a {
   text-decoration: none;
-  color:black
+  color: black;
 }
-.h{
+.h {
   padding-left: 20%;
   padding-right: 20%;
 }
-body{
+body {
   background-color: lightyellow;
 }
-.co{
-  border: 1px dotted black;
-  height: auto;
+hr {
+  height: 10px;
+  background-color: black;
+}
+.I {
+  background-color: lightskyblue;
+  border: 5px solid black;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.I h6 {
+  padding-left: 80%;
 }
